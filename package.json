@@ -54,6 +54,7 @@
     "lodash": "4.17.x",
     "prop-types": "15.x.x",
     "react-lifecycles-compat": "2.0.0",
+    "tsc": "^1.20150623.0",
     "tslib": "1.9.3"
   },
   "devDependencies": {
