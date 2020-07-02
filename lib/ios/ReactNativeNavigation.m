@@ -61,6 +61,7 @@
 -(void)bootstrap:(NSURL *)jsCodeLocation launchOptions:(NSDictionary *)launchOptions bridgeManagerDelegate:(id<RNNBridgeManagerDelegate>)delegate {
 	UIWindow* mainWindow = [self initializeKeyWindow];
 	
+	mainWindow.backgroundColor = [UIColor colorWithRed:.164f green:.788f blue:.676f alpha:1];
 	self.bridgeManager = [[RNNBridgeManager alloc] initWithJsCodeLocation:jsCodeLocation launchOptions:launchOptions bridgeManagerDelegate:delegate mainWindow:mainWindow];
 	[RNNSplashScreen showOnWindow:mainWindow];
 }
